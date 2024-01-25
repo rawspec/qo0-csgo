@@ -10,6 +10,9 @@ using namespace F;
 #pragma region autowall_get
 float AUTOWALL::GetDamage(CCSPlayer* pAttacker, const Vector_t& vecPoint, SimulateBulletObject_t* pDataOut)
 {
+
+	//done
+
 	const Vector_t vecPosition = pAttacker->GetWeaponShootPosition();
 
 	// setup initial data
